@@ -1,0 +1,53 @@
+.root {
+  background-color: var(--color-bone);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+  align-content: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 16px 0px;
+  box-shadow: 1.29px 1.53px 12px -3px black;
+  @media (min-width: 768px) {
+    width: 35%;
+  }
+}
+.cardTitle {
+  font-family: 'Rubik', sans-serif;
+  color: var(--color-lion);
+  text-transform: uppercase;
+  font-size: 24px;
+  margin: -16px 0px 0px;
+}
+.cardText {
+  font-family: 'Hind Siliguri', sans-serif;
+  text-align: center;
+  color: var(--color-brown);
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-items: center;
+  align-content: center;
+  justify-content: center;
+  gap: 0px;
+  padding-right: 8px;
+  padding-left: 8px;
+}
+.actionButton {
+  border-radius: 32px;
+  color: #ffecec;
+  background-color: var(--color-chinese-violet);
+  border: 0px solid black;
+  font-family: 'Rubik', sans-serif;
+  font-size: 20px;
+  text-transform: uppercase;
+  padding: 8px 24px;
+  font-weight: 600;
+  cursor: pointer;
+  &:hover {
+    background-color: var(--color-charcoal);
+  }
+}

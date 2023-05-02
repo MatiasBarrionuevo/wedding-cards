@@ -1,51 +1,111 @@
-.App {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+.songText {
+  color: #5b472e;
+  font-style: italic;
+  font-family: 'Hind Siliguri', sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  text-align: center;
+  direction: ltr;
+  text-transform: none;
+}
+.songContainer {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  align-content: center;
+  justify-content: center;
+  padding: 16px;
+}
+.portraitContainer {
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+  align-content: center;
+  justify-content: center;
+  gap: 24px;
+  @media (min-width: 780px) {
+    flex-direction: row;
+  }
+}
+.locationText {
+  text-transform: uppercase;
+  margin-top: 0px;
+  margin-bottom: -10px;
+}
+.cardTextMargin {
+  margin-bottom: -6px;
+  padding: 0px 8px;
+}
+.dressCodeFooter {
+  margin-top: 48px;
+  margin-left: 0px;
+  margin-bottom: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+  align-content: center;
+  justify-content: center;
+  gap: 0px;
+  color: var(--color-brown);
+  font-family: 'Hind Siliguri', sans-serif;
+}
+.dresscodeImage {
+  margin-bottom: 32px;
+}
+.dresscodeText {
+  padding: 8px;
   text-align: center;
 }
-
-.logo {
-  padding: 1.25em;
-  will-change: filter;
-  transition: filter 300ms;
+.collagePhoto {
+  width: 100%;
+  margin-bottom: 24px;
 }
-
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
+.inviteImg {
+  margin-top: 0px;
+  margin-bottom: 16px;
 }
-
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.giftTitle {
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration-line: underline;
+  font-size: 20px;
+  font-family: 'Rubik', sans-serif;
 }
-
-.logo.ts:hover {
-  filter: drop-shadow(0 0 2em #3178c6aa);
+.giftText {
+  text-align: center;
+  font-family: 'Hind Siliguri', sans-serif;
 }
-
-.logo.scss:hover {
-  filter: drop-shadow(0 0 2em #cc6698aa);
+.giftActions {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-items: center;
+  align-content: center;
+  justify-content: center;
+  gap: 8px;
 }
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.giftAction {
+  background-color: var(--color-chinese-violet);
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.container {
+  background-color: var(--color-dun);
 }
-
-.card {
-  padding: 2em;
+.thanksContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-items: center;
+  align-content: center;
+  justify-content: center;
+  margin: 8px 8px 0px;
+  padding: 8px 8px 0px;
 }
-
-.read-the-docs {
-  color: #888;
+.thanksText {
+  color: var(--color-brown);
+  font-family: 'Bilbo Swash Caps', cursive;
+  font-size: 60px;
+  font-weight: 500;
 }
