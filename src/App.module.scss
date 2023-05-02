@@ -92,6 +92,12 @@
 }
 .container {
   background-color: var(--color-dun);
+  background-image: url(/src/assets/elemento-2.png), url(/src/assets/elemento-3.png);
+  background-repeat: repeat-y;
+  background-position: 105% 0, -5% 0;
+  @media (max-width: 768px) {
+    background-size: 40%;
+  }
 }
 .thanksContainer {
   display: flex;
