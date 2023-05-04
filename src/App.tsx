@@ -62,7 +62,7 @@ function App() {
                     title={'¿Venís?'}
                     buttonProps={{
                         text: 'Confirmar asistencia',
-                        onClick: undefined,
+                        href: 'https://forms.gle/U9mNs7pNn69hGQa97',
                     }}
                     icons={<img src={invitePhoto} className={styles.inviteImg} />}
                 >
