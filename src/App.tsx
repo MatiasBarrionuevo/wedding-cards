@@ -68,6 +68,10 @@ function App() {
                 >
                     <p className={Card_module.cardText}>
                         Esperamos que puedas acompañarnos en este momento especial.
+                        <p className={Card_module.cardText}>
+                            Recordá que tenes tiempo hasta Agosto inclusive para confirmar tu
+                            asistencia.
+                        </p>
                     </p>
                 </Card>
                 <Card
