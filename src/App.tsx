@@ -20,6 +20,7 @@ function App() {
     const alias = 'TENIS.AVIAR.DADO';
     const handleCopyClick = (data: string) => {
         navigator.clipboard.writeText(data);
+        setOpenDataBank(false);
     };
 
     return (
@@ -68,10 +69,10 @@ function App() {
                 >
                     <p className={Card_module.cardText}>
                         Esperamos que puedas acompañarnos en este momento especial.
-                        <p className={Card_module.cardText}>
-                            Recordá que tenes tiempo hasta Agosto inclusive para confirmar tu
-                            asistencia.
-                        </p>
+                    </p>
+                    <p className={Card_module.cardText}>
+                        Recordá que tenes tiempo hasta Agosto inclusive para confirmar tu
+                        asistencia.
                     </p>
                 </Card>
                 <Card
@@ -97,6 +98,7 @@ function App() {
                 <p className={styles.giftText}>Alias: {alias}</p>
                 <p className={styles.giftText}>DNI: 35473619</p>
                 <p className={styles.giftText}>Banco BBVA</p>
+                <p className={styles.giftTitle}>Copiar:</p>
                 <div className={styles.giftActions}>
                     <button
                         className={Card_module.actionButton}

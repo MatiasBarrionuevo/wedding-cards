@@ -52,7 +52,7 @@ export const CalendarTimer = ({ className }: CalendarTimerProps) => {
                     <span>Segundos</span>
                 </div>
             </div>
-            <a href="http://www.google.com/calendar/event?action=TEMPLATE&dates=20231104T140000Z%2F20231104T220000Z&text=Boda%20-%20Mati%20y%20Lara&location=Camping%20Bahia%20del%20Gitano%2C%20Av.%20Ram%C3%B3n%20J.%20C%C3%A1rcano%201691%2C%20X5152%20Villa%20Carlos%20Paz%2C%20C%C3%B3rdoba&details=Ven%C3%AD%20a%20acompa%C3%B1arnos%20en%20el%20comienzo%20de%20una%20nueva%20aventura%2C%20!la%20del%20papeleo!%20y%20bueno%20nuestra%20uni%C3%B3n%20como%20personas%20que%20nos%20amamos!%20!esperamos%20verte%20ah%C3%AD!">
+            <a href="http://www.google.com/calendar/event?action=TEMPLATE&dates=20231104T140000Z%2F20231104T220000Z&text=Boda%20-%20Mati%20y%20Lara&location=Camping%20Bahia%20del%20Gitano%2C%20Av.%20Ram%C3%B3n%20J.%20C%C3%A1rcano%201691%2C%20X5152%20Villa%20Carlos%20Paz%2C%20C%C3%B3rdoba&details=Ven%C3%AD%20a%20acompa%C3%B1arnos%20en%20el%20comienzo%20de%20una%20nueva%20aventura%2C%20¡la%20del%20papeleo!%20y%20bueno%20nuestra%20uni%C3%B3n%20como%20personas%20que%20nos%20amamos!%20¡esperamos%20verte%20ah%C3%AD!">
                 <button className={styles.addEventButton}>Agendar</button>
             </a>
         </div>
