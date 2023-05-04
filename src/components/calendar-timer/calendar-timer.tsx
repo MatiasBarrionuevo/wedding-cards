@@ -8,11 +8,17 @@ dayjs.extend(duration);
 export interface CalendarTimerProps {
     className?: string;
 }
+interface calculatedTime {
+    days: number | null;
+    hours: number | null;
+    minutes: number | null;
+    seconds: number | null;
+}
 
 const dDay = dayjs('2023-11-04');
 
 export const CalendarTimer = ({ className }: CalendarTimerProps) => {
-    const [time, setTime] = useState({});
+    const [time, setTime] = useState<calculatedTime>({days: null, hours: null, minutes: null, seconds: null});
     useEffect(() => {
         setTimeout(() => {
             const now = dayjs();
