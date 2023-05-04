@@ -11,8 +11,11 @@ export const SongLirics = ({ className }: SongLiricsProps) => {
         <div className={classNames(styles.root, className)}>
             <img src={DiscImage} />
             <p className={styles.liricsContainer}>
-                &quot;Solo tú, no necesito más Te adoraría lo que dure la eternidad Debes
-                serperfectapara, perfecto para Perfecta para mí, mi amor&quot;
+                &quot;Solo tú, no necesito más<br/>
+                Te adoraría lo que dure la eternidad<br/>
+                Debes ser perfecta para,<br/>
+                perfecto para<br/>
+                Perfecta para mí, mi amor&quot;<br/>
             </p>
         </div>
     );

@@ -1,6 +1,6 @@
 import classNames from 'classnames';
 import styles from './portrait.module.scss';
-import UsPhoto from '../../assets/nosotros.png';
+import UsPhoto from '../../assets/nosotros.webp';
 
 export interface PortraitProps {
     className?: string;
