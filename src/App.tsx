@@ -29,6 +29,7 @@ function App() {
                 <Portrait />
             </div>
             <SongLirics />
+            <SongLirics />
             <CalendarTimer />
             <div className={styles.portraitContainer}>
                 <Card
@@ -70,10 +71,7 @@ function App() {
                     <p className={Card_module.cardText}>
                         Esperamos que puedas acompañarnos en este momento especial.
                     </p>
-                    <p className={Card_module.cardText}>
-                        Recordá que tenes tiempo hasta Agosto inclusive para confirmar tu
-                        asistencia.
-                    </p>
+                    <p className={Card_module.cardText}></p>
                 </Card>
                 <Card
                     buttonProps={{
