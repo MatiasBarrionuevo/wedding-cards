@@ -29,7 +29,6 @@ function App() {
                 <Portrait />
             </div>
             <SongLirics />
-            <SongLirics />
             <CalendarTimer />
             <div className={styles.portraitContainer}>
                 <Card
